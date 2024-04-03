@@ -17,12 +17,12 @@ public class TestArray {
         System.out.println();
 
         System.out.println("Удаление в массиве по индексу 2:");
-        data.remove(2); // используем метод remove(index), который хотим удалить, то позиция в индексе 2 - это [0,1]
+        data.remove(2); // используем метод remove(index), который хотим удалить, то есть позиция в индексе 2 - это [0,1]
         data.display();
         System.out.println();
 
         System.out.println("Удаление в массиве по значению 1:");
-        data.remove(Integer.valueOf(1)); // В этом методе remove(E value) тут надо именно создавать обёртку вот так в скобках: Integer.valueOf(какое-то значение), потому-то у нас не будет понимать, что мы удаляем объект или число, если бы это не сделаем
+        data.remove(Integer.valueOf(1)); // В этом методе remove(E value) тут надо именно создавать обёртку вот так в скобках: Integer.valueOf(какое-то значение), потому-что у нас не будет понимать, что мы удаляем объект или число, если мы это не сделаем
         data.display();
         System.out.println();
 
